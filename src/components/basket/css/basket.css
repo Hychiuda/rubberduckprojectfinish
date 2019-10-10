@@ -1,0 +1,307 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    background-image: url(https://watersmarty.org/wp-content/uploads/2018/01/main-banner.png);
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+   
+  }
+
+
+  #textptop {
+    text-align: center;
+  }
+
+  #texttop {
+    width: 50%;
+    margin: 0 auto;
+    
+  }
+
+  h2 {
+      width: 30%;
+      border: 1px solid black;
+      text-align: center;
+      box-sizing: border-box;
+      margin: 15px auto;
+  }
+
+  .p1 {
+    text-align: center;
+    border-top: dotted black;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 0px;
+    
+  }
+
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    background-color: inherit;
+      }
+
+  .row2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -32px;
+    padding: 5px;
+    background-color: inherit;
+    
+    
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+        
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    border-top:2px dotted #0a0c0e;
+    border-top-width: 5px;
+       
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+    background: none;
+    
+  }
+  
+  .col-25, .col-50, .col-75 {
+    padding: 30px;
+ 
+   }
+  
+  .container {
+    background-color: rgba(109, 158, 207, 0.61);
+    margin: 0 auto;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid #554B4B;
+    border-radius: 20px;
+    justify-content: center;  
+    overflow: hidden;
+
+  }
+  
+  input[type=text] {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin: 20px 20px 20px 50px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 10px 10px 320px;
+    border: none;
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    justify-content: center;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid #554B4B;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+header {
+    height:75px;
+    background-color: #313131;
+    display:flex;
+}
+
+.logo {
+    flex-grow:1;
+    background-color: #313131;
+    text-align: center;
+    line-height: 0px;
+    margin-top: 10px; 
+}
+
+#top-section {
+    background-color: #ECEEF0;
+    width: 100%;
+    height: 750px;
+}
+
+#bottom-section{
+    background-color: #ECEEF0;
+    width: 100%;
+    height: 2560px;
+}
+
+.duck {
+    background-color:darkgray;
+    height: 398px;
+    width: 398px;
+    display: flex;
+    flex-direction: row;
+    }
+
+.title {
+    font-family: "Helvetica", Times, serif;
+    width: 398px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+  
+  }
+
+.price {
+    width: 398px;
+    font-family:"Helvetica", Times, serif;
+    justify-content:center;
+    align-content:center;
+    display:flex;
+    }
+
+div.button {
+    background-color: #A42039;
+    font-family: "Helvetica", Times, serif;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin: 25px 0 0 150px; 
+    
+}
+
+div.button:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+a.divLink {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.add {
+    width: 300px;
+    font-family: "Helvetica", Times, serif;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: -55px 0 0 50px;
+    user-select: none;
+}
+
+#headline {
+    font-family: "Lato", Courier, monospace;
+    text-justify: center;
+    text-align: center;
+    font-size: 48px;
+    margin: 0 0 125px 0;
+    
+}
+
+.productmain {
+    width: 1640px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+footer{
+  background-color: #554B4B;
+  width: 100%;
+  height: 200px;
+  margin: -20px 0 -100px 0;
+  text-align: center;
+  font-family: "Lato", Courier, serif;
+  font-size: 18px;
+  color: #F8F8FF
+}
+
+footer p{
+  line-height: 50px;
+}
+
+#wtf{
+  margin: 0;
+  padding: 0 25px 0 25px;
+}
+
+.wtf, .wtf:visited {
+  font-family: "Lato", Courier, monospace;
+  background-color: #b1e8ed;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  margin: 0;
+  padding: 0 25px 0 25px;
+}
+
+.wtf:hover, wtf:active{
+  background-color: #ffd45c;
+}
+
+a {
+  color:black;
+  text-decoration: orange;
+}
+  
